@@ -1,0 +1,174 @@
+<!doctype HTML>
+<html>
+<head>
+  <title></title>
+  <!-- add css file -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <!-- add bootstrap css and js -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!--canvas-->
+<div class='container' id='canvas'>
+
+  <div id='tabs'>
+    <ul class="nav nav-tabs tabs-deface">
+      <li role="presentation" class="tabs-deface1"><a href="#" data-toggle="tab">Org. Name</a></li>
+      <li role="presentation"><a href="#" class='tabs-deface2' data-toggle="tab">Tech</a></li>
+      <li role="presentation"><a href="#" class='tabs-deface3' data-toggle="tab">Finance</a></li>
+      <li role="presentation"><a href="#" id='add-tabs' style="background-color: #efefef" data-toggle="tab">+</a></li>
+    </ul>
+  </div>
+  <!--end tabs-->
+
+
+  <div class='container' id='block-container'>
+    <div class='row'>
+      <!--row contains left nav, left and right blocks-->
+      <div class="col-xs-3" id="sidebar-wrapper" style="height:800px">
+        <ul class="sidebar-nav nav-deface">
+          <li class="sidebar-brand"><a href='#'>VYTMN</a></li>
+          <li><a href='#'>Twitter Feed</a></li>
+          <li><a href='#'>Account</a></li>
+        </ul>
+
+      </div>
+      <div class='container col-xs-4' id='left-block'>
+        <div class="title text-center" id="business-insider">
+          <h2>Business Insider</h2></div>
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail" id='custom_thumbnail' data-toggle="modal" data-target="#myModal">
+              <img src="..." alt="...">
+              <div class="caption">
+                <h4>Header</h4>
+                <p>PBR kale chips sartorial, Bushwick squid XOXO twee brunch Etsy. Retro aesthetic bicycle rights, jean shorts fashion axe 3 wolf moon leggings you probably haven't heard of them Neutra direct trade.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail" id='custom_thumbnail' data-toggle="modal" data-target="#myModal">
+              <img src="..." alt="...">
+              <div class="caption">
+                <h4>Header</h4>
+                <p>PBR kale chips sartorial, Bushwick squid XOXO twee brunch Etsy. Retro aesthetic bicycle rights, jean shorts fashion axe 3 wolf moon leggings you probably haven't heard of them Neutra direct trade.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail" id='custom_thumbnail' data-toggle="modal" data-target="#myModal">
+              <img src="..." alt="...">
+              <div class="caption">
+                <h4>Header</h4>
+                <p>PBR kale chips sartorial, Bushwick squid XOXO twee brunch Etsy. Retro aesthetic bicycle rights, jean shorts fashion axe 3 wolf moon leggings you probably haven't heard of them Neutra direct trade.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end left-block-->
+
+      <div class='container col-xs-4' id='right-block'>
+        <div class="title text-center" id="business-insider">
+          <h2>Forbes</h2></div>
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail" id='custom_thumbnail' data-toggle="modal" data-target="#myModal">
+              <img src="..." alt="...">
+              <div class="caption">
+                <h4>Header</h4>
+                <p>PBR kale chips sartorial, Bushwick squid XOXO twee brunch Etsy. Retro aesthetic bicycle rights, jean shorts fashion axe 3 wolf moon leggings you probably haven't heard of them Neutra direct trade.</p>
+              </div>
+            </div>
+            <!--end thumbnail-->
+          </div>
+          <!--end col-sm-6-->
+        </div>
+        <!--end row-->
+
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail" id='custom_thumbnail' data-toggle="modal" data-target="#myModal">
+              <img src="..." alt="...">
+              <div class="caption">
+                <h4>Header</h4>
+                <p>PBR kale chips sartorial, Bushwick squid XOXO twee brunch Etsy. Retro aesthetic bicycle rights, jean shorts fashion axe 3 wolf moon leggings you probably haven't heard of them Neutra direct trade.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail" id='custom_thumbnail' data-toggle="modal" data-target="#myModal">
+              <img src="..." alt="...">
+              <div class="caption">
+                <h4>Header</h4>
+                <p>PBR kale chips sartorial, Bushwick squid XOXO twee brunch Etsy. Retro aesthetic bicycle rights, jean shorts fashion axe 3 wolf moon leggings you probably haven't heard of them Neutra direct trade.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--end-right block-->
+    </div>
+  </div>
+  <!--end row-->
+</div>
+<!--end block-container-->
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Article Title</h4>
+      </div>
+      <div class="modal-body" style="display:inline-block">
+
+        <div id='text'> Pork belly 8-bit food truck chia. Organic authentic taxidermy, PBR&B bespoke messenger bag Shoreditch art party umami hoodie Pitchfork PBR Banksy. Schlitz normcore cliche food truck High Life post-ironic lomo Neutra.Pork belly 8-bit food truck
+          chia. Organic authentic taxidermy, PBR&B bespoke messenger bag Shoreditch art party umami hoodie Pitchfork PBR Banksy. Schlitz normcore cliche food truck High Life post-ironic lomo Neutra. </div>
+        <div id='img'><img src="http://placehold.it/250x100"></div>
+
+      </div>
+      <!--end modal body-->
+      <div class="modal-footer" id='modal-footer-deface'>
+        <div id='add_to_queue'>
+          <button type="button" class="btn btn-default btn-lg btn-deface2" data-dismiss="modal"><h6>Add to Queue</h6></button>
+        </div>
+        <div id='footer-headline'>
+          <h4 id='h4-left'>Add to queue</h4>
+          <h5 id='h5-left'>(Choose which accounts to post this article to.)</h5></div>
+        <div id='buttons'>
+          <button type="button" class="btn btn-danger btn-lg btn-deface" data-dismiss="modal"></button>
+          <button type="button" class="btn btn-danger btn-lg btn-deface">
+          </button>
+          <button type="button" class="btn btn-danger btn-lg btn-deface" data-dismiss="modal"></button>
+          <button type="button" class="btn btn-danger btn-lg btn-deface" </div>
+            <!--end button div-->
+            <!--<div id="add_to_queue"></div>-->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+</div>
+<!--end canvas-->
+
+</body>
+</html>
