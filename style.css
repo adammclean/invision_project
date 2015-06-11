@@ -11,9 +11,10 @@ body{
 
 /*Tabs section*/
 
-.tabs-deface{
+#tabs-deface{
   padding-left: 172px;
-  margin-top: 150px;  
+  margin-top: 150px;
+  border-bottom: 1px solid #fff;  
 }
 
 /*Block section*/
